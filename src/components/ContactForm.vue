@@ -9,8 +9,7 @@
       <div v-html="contentHtml" style="max-width: 450px;">
       </div>
 
-      <form id="contact-form" name="contact-form" v-on:submit.prevent="submitForm" class="sm-col-6">
-        <input type="hidden" name="form-name" value="contact-form" />
+      <form id="contact-form" v-on:submit.prevent="submitForm" class="md-col-8">
         <p>
           <label>Name</label>
           <input v-model="fields.name" type="text" name="name" class="block col-12 mb1 field" required>
@@ -72,3 +71,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+  label {
+    font-size: 1.3rem;
+  }
+</style>
