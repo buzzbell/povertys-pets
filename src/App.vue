@@ -1,7 +1,7 @@
 <template>
   <div class="p2" id="app">
     <router-view></router-view>
-    <div class='footer center' itemscope itemtype="http://schema.org/LocalBusiness">
+    <div class='footer center p3' itemscope itemtype="http://schema.org/LocalBusiness">
       <span itemprop="name">Zen Hapkido</span> <br/>
       <span itemprop="telephone">(310) 962-1772</span><br/>
       <div itemprop=”address” itemscope itemtype=”http://schema.org/PostalAddress”>

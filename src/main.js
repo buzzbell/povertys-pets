@@ -9,12 +9,14 @@ import Teaser from './components/Teaser.vue'
 import Hero from './components/Hero.vue'
 import ClassTimes from './components/ClassTimes.vue'
 import ContentBlock from './components/ContentBlock.vue'
+import ContactForm from './components/ContactForm.vue'
 
 Vue.component('root', Root)
 Vue.component('teaser', Teaser)
 Vue.component('hero', Hero)
 Vue.component('class-times', ClassTimes)
 Vue.component('content-block', ContentBlock)
+Vue.component('contact-form', ContactForm)
 Vue.use(StoryblokVue)
 
 /* eslint-disable no-new */
