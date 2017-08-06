@@ -1,5 +1,8 @@
 <template>
   <div class="hero">
+    <div class="flex justify-center">
+      <img src="../assets/logo.jpg">
+    </div>
     <!--
     The _editable attribute makes the next
     DOM-element clickable so the sidebar can
