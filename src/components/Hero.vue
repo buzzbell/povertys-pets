@@ -1,7 +1,7 @@
 <template>
   <div class="hero">
     <div class="flex justify-center">
-      <img src="../assets/logo.jpg">
+      <img class="logo" src="../assets/logo.jpg">
     </div>
     <!--
     The _editable attribute makes the next
@@ -32,3 +32,14 @@ export default {
   }
 }
 </script>
+
+<<style>
+  .logo {
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    padding: 15px;
+    margin: 0 auto;
+  }
+</style>
+
