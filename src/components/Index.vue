@@ -17,7 +17,7 @@
     },
     created () {
       window.storyblok.init({
-        accessToken: 'EWcDcG45ESFdxGBrQTgLAQtt'
+        accessToken: 'BRZbRskQwLqN00WfY2OSzAtt'
       })
 
       window.storyblok.on('change', () => {

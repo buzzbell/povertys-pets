@@ -1,19 +1,6 @@
 <template>
-  <div class="p2" id="app">
+  <div id="app">
     <router-view></router-view>
-    <div class='footer center p3' itemscope itemtype="http://schema.org/LocalBusiness">
-      <span itemprop="name">Zen Hapkido</span> <br/>
-      <span itemprop="telephone">(310) 962-1772</span><br/>
-      <div itemprop=”address” itemscope itemtype=”http://schema.org/PostalAddress”>
-        <span>Located at <a href="http://fitandfearless.com" target="blank">Fit and Fearless</a></span>
-        <br>
-        <span itemprop="streetAddress">2800 I-35 #100</span>
-        <br>
-        <span itemprop="addressLocality">Austin</span>,<span itemprop="addressRegion">TX</span> <span itemprop="postalCode">78704</span>
-      </div>
-      <meta itemprop="latitude" content="30.228794" />
-      <meta itemprop="longitude" content="-97.745007" />
-    </div>
   </div>
 </template>
 

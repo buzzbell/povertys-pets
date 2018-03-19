@@ -1,7 +1,7 @@
 <template>
   <div class="hero">
     <div class="flex justify-center">
-      <img class="logo" src="../assets/logo.jpg">
+      <img class="logo" src="../assets/logo.png">
     </div>
     <!--
     The _editable attribute makes the next
