@@ -1,22 +1,10 @@
-<template>
+<template lang="pug">
   <div class="class-times">
-    <!--
-    The _editable attribute makes the next
-    DOM-element clickable so the sidebar can
-    show the right component.
-    -->
     <div v-editable="blok" class="class-times__inner">
-      <h2>
-        <!--
-        You can access every attribute you
-        define in the schema in the blok variable
-        -->
-        {{blok.title}}
-      </h2>
+      h2 {{blok.title}}
       <p v-for="class_time in blok.class_time">
         <b>{{class_time.week_day}}</b>
-        {{class_time.times}}
-        <!-- <component  :blok="item" :is="item.component"></component> -->
+        <b>{{class_time.times}}</b>
       </p>
     </div>
   </div>
@@ -32,3 +20,11 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+
+  .class-times__inner {
+    background: blue;
+  }
+
+</style>

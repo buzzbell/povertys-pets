@@ -9,13 +9,7 @@
     show the right component.
     -->
     <div v-editable="blok" class="hero__inner">
-      <h1>
-        <!--
-        You can access every attribute you
-        define in the schema in the blok variable
-        -->
-        {{blok.title}}
-      </h1>
+      <h1>{{blok.title}}</h1>
       <div v-html="contentHtml">
       </div>
     </div>
