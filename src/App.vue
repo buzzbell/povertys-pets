@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <router-view></router-view>
+    <transition name="fade">
+      <router-view></router-view>
+    </transition>
   </div>
 </template>
 
@@ -13,25 +15,16 @@ export default {
 
 <style>
 
-body {
-  height: 100vh;
-}
-
 h1, h2, h3 {
   font-family: 'Lato', sans-serif;
 }
 
-.banner-box {
-  background-color: #4D4689;
-  color: white;
-  padding: 15px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  text-align: center;
+section {
+  background: #f1f1f1;
 }
-.banner-box > a {
-  color: white;
+
+.box-shadow {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
+
 </style>
