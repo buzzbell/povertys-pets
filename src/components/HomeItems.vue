@@ -1,39 +1,37 @@
 <template lang="pug">
-  section.pb-5
-    .d-flex.justify-content-center
-      .px-5.py-2.bg-white.box-shadow.rounded(style="margin-top:-30px;")
-        h1 Ways to get involved with Poverty's Pets
-
-    .container.text-center.mt-5
+  section
+    .container.text-center
       .row
         .col-6.col-md-3
-          .box-shadow.bg-white.rounded.grow
-            a(href="/adopt")
-              h3.py-2.mb-0
-                |Adopt
-                i.fas.fa-caret-right(data-fa-transform="right-6")
-          <img src="../assets/pp-adopt.jpg" class="img-fluid rounded-bottom mt-5" />
+          a.btn.btn-outline-primary.btn-lg.btn-block.mt-3(href="/adopt")
+            |Adopt
+            i.fas.fa-caret-right(data-fa-transform="right-6")
+
         .col-6.col-md-3
-          .box-shadow.bg-white.rounded.grow
-            a(href="#")
-              h3.py-2.mb-0
-                |Donate
-                i.fas.fa-caret-right(data-fa-transform="right-6")
-          <img src="../assets/pp-donate.jpg" class="img-fluid rounded-bottom mt-5" />
+          a.btn.btn-outline-primary.btn-lg.btn-block.mt-3(href="#")
+            |Donate
+            i.fas.fa-caret-right(data-fa-transform="right-6")
+
         .col-6.col-md-3
-          .box-shadow.bg-white.rounded.grow
-            a(href="/foster")
-              h3.py-2.mb-0
-                |Foster
-                i.fas.fa-caret-right(data-fa-transform="right-6")
-          <img src="../assets/pp-programs.jpg" class="img-fluid rounded-bottom mt-5" />
+          a.btn.btn-outline-primary.btn-lg.btn-block.mt-3(href="/foster")
+            |Services
+            i.fas.fa-caret-right(data-fa-transform="right-6")
+
         .col-6.col-md-3
-          .box-shadow.bg-white.rounded.grow
-            a(href="#")
-              h3.py-2.mb-0
-                |Volunteer
-                i.fas.fa-caret-right(data-fa-transform="right-6")
-          <img src="../assets/pp-involved.jpg" class="img-fluid rounded-bottom mt-5" />
+          a.btn.btn-outline-primary.btn-lg.btn-block.mt-3(href="#")
+            |Get Involved
+            i.fas.fa-caret-right(data-fa-transform="right-6")
+
+      .row
+        .col-6.col-md-3
+          <img src="../assets/pp-adopt.jpg" class="img-fluid rounded mt-3" />
+        .col-6.col-md-3
+          <img src="../assets/pp-donate.jpg" class="img-fluid rounded mt-3" />
+        .col-6.col-md-3
+          <img src="../assets/pp-programs.jpg" class="img-fluid rounded mt-3" />
+        .col-6.col-md-3
+          <img src="../assets/pp-involved.jpg" class="img-fluid rounded mt-3" />
+
 </template>
 
 <script>

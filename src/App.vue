@@ -19,10 +19,6 @@ h1, h2, h3 {
   font-family: 'Lato', sans-serif;
 }
 
-section {
-  background: #f1f1f1;
-}
-
 .box-shadow {
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
